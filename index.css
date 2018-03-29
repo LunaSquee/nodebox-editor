@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+}
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sidebar {
+    display: inline-block;
+    padding: 10px;
+    background-color: #198eff;
+    width: 400px;
+    color: #fff;
+}
+.divider {
+    border-top: 1px solid #06f;
+    margin: 5px;
+}
+.section_title {
+    font-size: 120%;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+.tile_file {
+    background-color: #009cff;
+    margin: 5px 0;
+    padding: 5px;
+    cursor: pointer;
+}
+.tile_file input {
+    display: block;
+    margin-top: 5px;
+}
+.tile_file#all {
+    background-color: #00b7ff;
+}
+.list_entry {
+    background-color: #00b7ff;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.list_entry #expand {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 4px;
+    font-size: 80%;
+    background-color: #00a5ff;
+    vertical-align: middle;
+    margin-right: 5px;
+    border-radius: 4px;
+    border: 1px solid #0081ff;
+}
+.list_entry .remove {
+    float: right;
+    margin-right: 5px;
+    color: #bc0000;
+    cursor: pointer;
+}
+.cfg_bar {
+    margin-top: 5px;
+    display: flex;
+}
+.cfg_bar .fieldset:last-child {
+    margin-left: auto;
+}
+.field {
+    margin: 5px;
+}
+.field label {
+    margin-right: 5px;
+    display: inline-block;
+}
+.field input {
+    width: 100px;
+}
+pre {
+    overflow: auto;
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+}
